@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #070707; /* AliceBlue background color */
+    color: #000000;
+}
+
+/* Header Styles */
+header {
+    background: #4682b4; /* SteelBlue header color */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation Styles */
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #cea59d; /* Tomato link color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4682b4; /* SteelBlue on hover */
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: #e6e6fa; /* Lavender section background color */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: slideIn 1s ease-in-out;
+}
+
+/* About Me Styles */
+#about-me {
+    font-size: 1.2em;
+    color: #000000; /* Black text color */
+    background: #fafad2; /* LightGoldenRodYellow background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 2s ease-in-out;
+}
+
+#about-me p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #000000; /* Black text color */
+}
+
+/* Projects Styles */
+#projects {
+    font-size: 1.2em;
+    color: #000000; /* Black text color */
+    background: #fafad2; /* LightGoldenRodYellow background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 2s ease-in-out;
+}
+
+#projects p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #000000; /* Black text color */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #3cb371; /* MediumSeaGreen footer color */
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
